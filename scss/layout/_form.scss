@@ -1,0 +1,64 @@
+section {
+    .call {
+        background: rgb(55, 6, 101);
+        background: linear-gradient(90deg, rgba(55, 6, 101, 1) 30%, rgba(241, 74, 22, 1) 67%, rgba(252, 153, 24, 0.6979166666666667) 92%);
+        background-size: 100% 50%;
+        background-repeat: no-repeat;
+        background-position: right center, left top;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        padding-top: 30px;
+        margin: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        form {
+            background-color: white;
+            width: 40%;
+            border: 1px solid #FC9918;
+            border-radius: 15px;
+            padding-bottom: 30px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            border-radius: 10px;
+            form {
+                height: 60%;
+                width: 65%;
+            }
+            .btn {
+                background-color: #FC9918;
+            }
+        }
+        .callme {
+            width: 60%;
+            position: relative;
+            z-index: 1;
+            left: 5%;
+            padding-top: 200px;
+            h2 {
+                font-size: 30px;
+                color: white;
+            }
+            h3 {
+                color: white;
+            }
+            li {
+                color: white;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:600px) {
+    .call {
+        flex-direction: column-reverse;
+        background-repeat: no-repeat;
+        background-position: right center, left top;
+        padding-top: 400px;
+        padding-bottom: 300px;
+        .form {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

@@ -1,0 +1,11 @@
+nav {
+    justify-content: space-between;
+    background-color: #370665;
+    navbar-nav {}
+    .navbar-collapse {
+        flex-grow: 0;
+    }
+    .item-active {
+        color: white;
+    }
+}
