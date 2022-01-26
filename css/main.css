@@ -104,7 +104,7 @@ h1 {
 
 .card-plan {
   width: 400px;
-  height: 400px;
+  height: 450px;
   border: 1px solid #FC9918;
   border-radius: 15px;
   margin: auto;
@@ -121,7 +121,7 @@ h1 {
 }
 .card-plan .card-body li {
   color: #370665;
-  line-height: 1.9;
+  line-height: 2.3;
 }
 .card-plan .btn {
   background-color: #FC9918;
@@ -195,7 +195,7 @@ article h2 {
 
 .card {
   width: 260px;
-  height: 300px;
+  height: 340px;
   margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
@@ -413,7 +413,7 @@ section .call .callme {
   position: relative;
   z-index: 1;
   left: 5%;
-  padding-top: 150px;
+  padding-top: 190px;
 }
 section .call .callme h2 {
   font-size: 30px;
