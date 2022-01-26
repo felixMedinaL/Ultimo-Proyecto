@@ -1,0 +1,29 @@
+.service {
+    width: $ancho;
+    height: 100%;
+    padding-top: 100px;
+    .card-service {
+        background-color: $color-secondary;
+        width: $ancho;
+        height: 200px;
+        margin-top: 10px;
+        border: 1px solid $color-secondary;
+        border-radius: 15px;
+        padding-top: 10px;
+        margin-bottom: 30px;
+        .icon {
+            height: 50%;
+            width: $ancho;
+            padding-top: 25px;
+            text-align: center;
+            i {
+                font-size: 50px;
+                color: white;
+            }
+        }
+        p {
+            color: $fondo;
+            text-align: center;
+        }
+    }
+}

@@ -19,8 +19,8 @@ article {
     border: 1px solid #35589A;
     border-radius: 5px;
     img {
-        width: 100%;
-        height: 150px;
+        width: $ancho;
+        height: $alto;
     }
     h3 {
         font-size: 14px;
