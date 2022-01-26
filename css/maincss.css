@@ -87,9 +87,53 @@
   background: #555;
   box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2); }
 
+h1 {
+  font-size: 60px; }
+
 .card-plan {
-  height: 500px;
-  border: 1px solid #FC9918; }
+  width: 400px;
+  height: 400px;
+  border: 1px solid #FC9918;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px; }
+  .card-plan .card-header {
+    background-color: #FC9918;
+    border-radius: 15px;
+    color: white; }
+  .card-plan .card-body {
+    height: 90%; }
+    .card-plan .card-body li {
+      color: #370665;
+      line-height: 1.9; }
+  .card-plan .btn {
+    background-color: #FC9918; }
+
+.service {
+  width: 100%;
+  height: 100%;
+  padding-top: 100px; }
+  .service .card-service {
+    background-color: #35589A;
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+    border: 1px solid #35589A;
+    border-radius: 15px;
+    padding-top: 10px;
+    margin-bottom: 30px; }
+    .service .card-service .icon {
+      height: 50%;
+      width: 100%;
+      padding-top: 25px;
+      text-align: center; }
+      .service .card-service .icon i {
+        font-size: 50px;
+        color: white; }
+    .service .card-service p {
+      color: white;
+      text-align: center; }
 
 .banner {
   background-image: url("http://res.cloudinary.com/djx5ujngu/image/upload/v1642369907/cKCfDihZoBm9XFVofp4moUrEuboyqZzJH3yiLnCIckmsb1B30HQIwjtletSVVKUlvLZu4MEcERkIDDpMFgc78lkhrV72ZoZ1nyiTKzZDCSyg2E3KiT_H4SfgMhkjxJ_8z3bJF7hizCczl6Sk7FQ6Jv7pyrFL3abjJWspS3LiqDO0pE1GRB7cV2YGI1_B9WffgTaoW5G0vdKQsfKApaFQs0wk_upjy98.jpg");
