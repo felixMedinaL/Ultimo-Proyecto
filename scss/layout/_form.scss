@@ -5,16 +5,16 @@ section {
         background-size: 100% 50%;
         background-repeat: no-repeat;
         background-position: right center, left top;
-        width: 100%;
+        width: $ancho;
         height: 100vh;
         display: flex;
         justify-content: center;
         padding-top: 30px;
         margin: 0;
         padding-left: 20px;
-        padding-right: 20px;
+        padding-right: 50px;
         form {
-            background-color: white;
+            background-color: $fondo;
             width: 40%;
             border: 1px solid #FC9918;
             border-radius: 15px;
@@ -26,7 +26,7 @@ section {
                 width: 65%;
             }
             .btn {
-                background-color: #FC9918;
+                background-color: $bcolor;
             }
         }
         .callme {
@@ -34,31 +34,41 @@ section {
             position: relative;
             z-index: 1;
             left: 5%;
-            padding-top: 200px;
+            padding-top: 150px;
             h2 {
-                font-size: 30px;
-                color: white;
+                font-size: $h2size;
+                color: $bcolorc;
             }
             h3 {
-                color: white;
+                color: $bcolorc;
             }
             li {
-                color: white;
+                color: $bcolorc;
             }
         }
     }
-}
-
-@media screen and (max-width:600px) {
-    .call {
-        flex-direction: column-reverse;
-        background-repeat: no-repeat;
-        background-position: right center, left top;
-        padding-top: 400px;
-        padding-bottom: 300px;
-        .form {
-            width: 100%;
-            height: 100%;
+    @media screen and (max-width:850px) {
+        .call {
+            flex-direction: column-reverse;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-position: right center, left top;
+            text-align: justify;
+            width: $ancho;
+            height: $alto;
+            padding-right: 20px;
+            padding-bottom: 20px;
+            form {
+                width: $ancho;
+                margin-left: 2px;
+                margin-top: 0px;
+            }
+            .callme {
+                padding-top: 10px;
+                padding-bottom: 1px;
+                padding-right: 15px;
+                width: 100%;
+            }
         }
     }
 }

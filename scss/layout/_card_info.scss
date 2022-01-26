@@ -1,16 +1,31 @@
 .info {
-    background-color: #FC9918;
-    width: 100%;
-    height: 100;
-    background-size: 100% 10%;
+    width: $ancho;
+    height: 100%;
+    padding-bottom: 100px;
+    padding-top: 100px;
     .card-info {
-        background-color: #FC9918;
+        background-color: $bcolor;
         width: 100%;
-        height: 130px;
-        margin-top: 100px;
-        margin-bottom: 100px;
+        height: 200px;
+        margin-top: 10px;
+        border: 1px solid $bcolor;
+        border-radius: 15px;
+        padding-top: 10px;
+        margin-bottom: 10px;
         p {
-            color: white;
+            color: $fondo;
+            text-align: center;
+        }
+    }
+    @media screen and (max-width:850px) {
+        .info {
+            width: 100%;
+            height: 100%;
+            padding-bottom: 10px;
+            margin-top: 50px;
+            .card-info {
+                margin-bottom: 20px;
+            }
         }
     }
 }
